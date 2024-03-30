@@ -38,5 +38,11 @@
    "telemetryEnabled": false,
    "hotfixChangeEnabled": false,
    "allowedProjectTags": [],
-  "projects": []
+  "projects": [
+    {
+      "packageName": "@lucky-parking/types",
+      "projectFolder": "libs/types",
+      "reviewCategory": "library"
+    }
+  ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "@lucky-parking/types",
+  "version": "0.0.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}

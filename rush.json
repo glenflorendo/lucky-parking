@@ -45,6 +45,11 @@
       "reviewCategory": "application"
     },
     {
+      "packageName": "@lucky-parking/website",
+      "projectFolder": "apps/website",
+      "reviewCategory": "application"
+    },
+    {
       "packageName": "@lucky-parking/types",
       "projectFolder": "libs/types",
       "reviewCategory": "library"

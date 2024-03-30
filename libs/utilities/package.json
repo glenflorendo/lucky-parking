@@ -1,0 +1,26 @@
+{
+  "name": "@lucky-parking/utilities",
+  "version": "0.0.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "exports": {
+    "./*": "./dist/*.js"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.12.2",
+    "glob": "^10.3.12",
+    "jest": "^29.7.0",
+    "typescript": "^5.4.3"
+  }
+}

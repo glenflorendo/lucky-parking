@@ -43,6 +43,11 @@
       "packageName": "@lucky-parking/types",
       "projectFolder": "libs/types",
       "reviewCategory": "library"
+    },
+    {
+      "packageName": "@lucky-parking/utilities",
+      "projectFolder": "libs/utilities",
+      "reviewCategory": "library"
     }
   ]
 }

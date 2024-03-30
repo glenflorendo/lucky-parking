@@ -40,6 +40,11 @@
    "allowedProjectTags": [],
   "projects": [
     {
+      "packageName": "@lucky-parking/server",
+      "projectFolder": "apps/server",
+      "reviewCategory": "application"
+    },
+    {
       "packageName": "@lucky-parking/types",
       "projectFolder": "libs/types",
       "reviewCategory": "library"

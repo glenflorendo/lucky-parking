@@ -1,0 +1,52 @@
+{
+  "name": "@lucky-parking/ui",
+  "version": "0.0.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "exports": {
+    "./*": "./dist/*",
+    "./components/*": "./dist/components/*/index.js",
+    "./theme/tokens/*": "./dist/theme/tokens/*.js"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc && pnpm postbuild",
+    "build-storybook": "storybook build --disable-telemetry",
+    "clean": "rimraf dist node_modules",
+    "dev": "storybook dev --port 6006 --no-open --disable-telemetry",
+    "postbuild": "copyfiles --up 1 src/**/*.css src/assets/**/* dist --verbose"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@lucky-parking/types": "workspace:*",
+    "@lucky-parking/utilities": "workspace:*",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@nivo/bar": "^0.85.1",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-select":  "^2.0.0",
+    "@react-spring/rafz": "^9.7.3",
+    "@storybook/react": "^8.0.5",
+    "clsx": "^2.1.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "@mui/types": "^7.2.14",
+    "@testing-library/dom": "^9.3.4",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.0",
+    "@types/react": "^18.2.73",
+    "copyfiles": "^2.4.1",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.3"
+  }
+}

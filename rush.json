@@ -45,6 +45,11 @@
       "reviewCategory": "library"
     },
     {
+      "packageName": "@lucky-parking/ui",
+      "projectFolder": "libs/ui",
+      "reviewCategory": "library"
+    },
+    {
       "packageName": "@lucky-parking/utilities",
       "projectFolder": "libs/utilities",
       "reviewCategory": "library"

@@ -1,0 +1,22 @@
+arrowParens: always
+bracketSameLine: true
+bracketSpacing: true
+embeddedLanguageFormatting: auto
+endOfLine: lf
+htmlWhitespaceSensitivity: css
+insertPragma: false
+jsxSingleQuote: false
+plugins:
+  - ./common/autoinstallers/rush-prettier/node_modules/prettier-plugin-tailwindcss/dist/index.mjs
+printWidth: 120
+proseWrap: never
+quoteProps: consistent
+requirePragma: false
+semi: true
+singleAttributePerLine: false
+singleQuote: false
+tabWidth: 2
+tailwindFunctions:
+  - clsx
+trailingComma: all
+useTabs: false

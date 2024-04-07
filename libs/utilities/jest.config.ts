@@ -1,10 +1,9 @@
 import { type JestConfigWithTsJest } from 'ts-jest';
-import { defaultsESM } from 'ts-jest/presets';
 
 process.env.TZ = "UTC";
 
 const config: JestConfigWithTsJest = {
-  ...defaultsESM,
+  preset: 'ts-jest/presets/default-esm',
   testPathIgnorePatterns: ['dist'],
 };
 
